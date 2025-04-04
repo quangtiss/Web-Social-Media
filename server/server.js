@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Backend đang chạy!');
+    res.send('Anh yêu Đài');
 });
 
 const PORT = process.env.PORT || 5000;

@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    axios.get("http://localhost:5000")
+    axios.get("https://web-social-media-production.up.railway.app/")
       .then(res => setMessage(res.data))
       .catch(err => console.error(err));
   }, []);
