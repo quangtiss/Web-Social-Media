@@ -12,8 +12,8 @@ function App() {
 
   return (
     <div>
-      <h1>React & Node.js</h1>
-      <p>{message}</p>
+      <h2>Quang Tí nói là:</h2>
+      <h1>{message}</h1>
     </div>
   );
 }
